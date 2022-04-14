@@ -1,0 +1,450 @@
+.intro{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p{
+    color: #b8b8b8;
+}
+body{
+    background-color: #000940;
+    color: #ffffff;
+}
+.nav .nav-link{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+} 
+.font1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.aqua{
+    color: rgb(0, 229, 255);
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+.size{
+    width: 80%;
+}
+
+.home{
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 10%;
+    background-image: linear-gradient(to right,#000940,#001987);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+    text-align: center;
+}
+.row .bi{
+    color: #00bfe0;
+    font-size: 5em;
+}
+
+.aboutus1{
+    flex-basis: 18%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: white;
+    color: black;
+    margin: 20px;
+    padding: 50px 20px 20px 20px;
+    transition: 0.3s;
+}
+.aboutus1:hover{
+    box-shadow: 0 0 30px 0 #00bfe0;
+}
+
+.aboutus2{
+    flex-basis: 18%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    margin: 20px;
+    padding: 50px 10px 10px 10px;
+    transition: 0.3s;
+}
+.aboutus2:hover{
+    box-shadow: 0 0 30px 0 #028ea7;
+}
+.active1 .nav-link{
+    color: #00bfe0;
+}
+
+
+/*****************SECTION 3 SERVICES *************************/
+
+.mainbox{
+    display: flex;
+    flex-direction: row;
+    margin: 10em 10em 0 10em;
+}
+.strat{
+    justify-content: center;
+    padding: 10em 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ .flexright{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+
+.cont1{
+    display: flex;
+    justify-content: right;
+    margin: 50px 20px 0 0;
+
+}
+.cont2{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+} 
+
+ .ser1{
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    width: 40%;
+    padding: 10px;
+    height: 45vh;
+    margin: 25px 0 25px ;
+    transition: 0.3s;
+}
+
+.ser2{
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    margin: 15px 0; 
+    padding: 10px;
+    width: 100%;
+    height: 25vh;
+    transition: 0.3s;
+} 
+.ser3{
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: white;
+    color: black;
+    margin: 15px 0;
+    padding: 10px;
+    width: 100%;
+    height: 25vh;
+    transition: 0.3s;
+}
+.secbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 7em;
+
+}
+.ser4{
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: white;
+    color: black;
+    margin: 10px;
+    padding: 25px 30px 10px 30px ;
+    transition: 0.3s;
+    flex-basis: 20%;
+
+}
+.ser5{
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: white;
+    color: black;
+    margin: 10px;
+    margin-bottom: 12%;
+    padding: 10px 18px;
+    transition: 0.3s;
+    flex-basis: 30%;
+}
+.ser6{
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    margin: 10px;
+    padding: 25px 30px 10px 30px;
+    transition: 0.3s;
+    flex-basis: 20%;
+}
+.flexright .bi{
+    color: #00bfe0;
+    font-size: 5em;
+}
+.secbox .bi{
+    color: #00bfe0;
+    font-size: 5em;
+}
+
+
+/*********************CORPORATE FINANCING*******************************************/
+
+.bi{
+    color: #ffd13b;
+}
+.financing{
+    margin:10% 15% 0 15%;
+    display: flex;
+    flex-direction: column;
+
+}
+.box2{ 
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.capital{
+    margin:10% 15% 40% 15%;
+    display: flex;
+    flex-direction: column;
+
+}
+.box3{
+    position: relative;
+    left: 70%;
+    font-size: 20em;
+    color: #00bfe0;
+    margin-bottom: 20%;
+}
+.box4{
+    flex-basis: 65%;
+    justify-content: space-between;
+    
+}
+.box5{
+    justify-content: space-between;
+    margin-bottom: 5%;
+    position: absolute;
+    right: 20%;
+    padding-top: 10%;
+
+}
+.ulist{
+    display: flex;
+    flex-direction: row;
+}
+.ulist .bi{
+    font-size: 2em;
+}
+.box6{
+    position: absolute;
+    left: 20%;
+    font-size: 20em;
+    color: #00bfe0;
+    padding-top: 10%;
+}
+
+/*************************Process***********************************************/
+
+.process{
+    margin: 7% 20% 15% 15%;
+}
+.upbox{
+    display: flex;
+    justify-content: space-around;
+    /* max-width: 70%; */
+}
+.dnbox{
+    display: flex;
+    justify-content: space-around;
+}
+.pro1{
+    /* flex-basis: 35%; */
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: white;
+    color: black;
+    margin: 20px 0 40px 100px;
+    padding: 50px 10px 10px 10px;
+    width: 35vh;
+    height: 50vh;
+    transition: 0.3s;
+}
+.pro1:hover{
+    box-shadow: 0 0 30px 0 #00bfe0;
+}
+.pro2{
+    /* flex-basis: 15%; */
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    margin: 20px 70px 40px 0;
+    padding: 50px 10px 10px 10px;
+    width: 35vh;
+    height: 50vh;
+    transition: 0.3s;
+}
+.pro2:hover{
+    box-shadow: 0 0 30px 0 #00bfe0;
+}
+.pro3{
+    /* flex-basis: 15%; */
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: white;
+    color: black;
+    margin: 40px 0 20px 200px;
+    padding: 50px 10px 10px 10px;
+    width: 35vh;
+    height: 50vh;
+    transition: 0.3s;
+}
+.pro3:hover{
+    box-shadow: 0 0 30px 0 #00bfe0;
+}
+.pro4{
+    /* flex-basis: 15%; */
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    margin: 40px 0 20px 0px ;
+    padding: 50px 10px 10px 10px;
+    width: 35vh;
+    height: 50vh;
+    transition: 0.3s;
+}
+.pro4:hover{
+    box-shadow: 0 0 30px 0 #00bfe0;
+}
+.process .bi{
+    color: #00bfe0;
+    font-size: 3em;
+}
+
+/*************************SECTION-4 PROGRAMS*******************************************/
+
+.prog{
+    width: 75%;
+    margin: 7% 15% 15% 15%;
+}
+.programs1{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+} 
+.card1 .bi{
+    color: white;
+} 
+.card1{
+    background: black;
+    color: white;
+    border-radius: 15px;
+    width: 22%;
+    padding: 20px;
+    height: 45vh;
+    padding-bottom: 80px;
+    margin: 20px;
+}
+.card2 .bi{
+    color: #858484e8;
+} 
+.card2{
+    background: white;
+    color: black;
+    border-radius: 15px;
+    width: 33%;
+    padding: 20px;
+    padding-top: 20px;
+    margin: 20px;   
+}
+.programs2{
+    display: flex;
+    flex-direction: row;
+}
+
+/***************FORM SECTION********************************************/
+
+.box{
+    background: #080d27;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 80%;
+    margin: 10%;
+    margin-top: 0;
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+}
+.form1{
+    justify-content: center;
+}
+.form2{
+    /* padding: 5px; */
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    flex-basis: 40%;
+
+}
+#name{
+    width: 100%;
+    margin-bottom: 10px;
+    background: black;
+    color: #d8d8d8;
+    border: 1px solid #afafaf;
+    border-radius: 5px;
+    padding: 10px; 
+}
+#email{
+    width: 100%;
+    background: black;
+    color: #dadada;
+    border: 1px solid #afafaf;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0; 
+}
+#message{
+    width: 100%;
+    background: black;
+    color: #afafaf;
+    border: 1px solid #afafaf;
+    border-radius: 5px;
+    padding: 10px; 
+    margin: 10px 0;
+}
+#btn{
+    width: 100%;
+    color: #ffffff;
+    background: #00bfe0;
+    border-radius: 5px;
+    padding: 10px; 
+    margin-top: 10px; 
+}
+
+/********************FOOTER*****************************/
+
+footer{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    background-color: #080d27;
+}
+.foot1{
+    padding-left: 10%;
+}
+.foot2{
+    padding-left: 45%;
+    font-size: x-large;
+}
+.foot2 .bi{
+    color: white;
+}
